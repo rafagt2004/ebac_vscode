@@ -22,20 +22,23 @@
         <p>
             Qual sua cor favorita?
         </p>
-        <input type="radio" id="cor_Vermelho"> <label for="cor_Vermelho">Vermelho</label>
-        <input type="radio" id="cor_Azul"> <label for="cor_Azul">Azul</label>
-        <input type="radio" id="cor_Amarelo"> <label for="cor_Amarelo">Amarelo</label>
+        <input type="radio" name="cores" id="cor_Vermelho"> <label for="cor_Vermelho">Vermelho</label>
+        <input type="radio" name="cores" id="cor_Azul"> <label for="cor_Azul">Azul</label>
+        <input type="radio" name="cores" id="cor_Amarelo"> <label for="cor_Amarelo">Amarelo</label>
+        <!--informado name="cores" para unir o campos de seleção-->
         <br>
-        <p>
+        <label>
             Qual seu filme favorito?
-        </p>
+        </label>
         <select multiple>
             <!--multiple é para selecionar mais de 1-->
             <option>Filme A</option>
             <option>Filme B</option>
             <option>Filme C</option>
         </select>
+        <br>
         <textarea></textarea>
+        <br>
         <button type="submit">
             Enviar
         </button>

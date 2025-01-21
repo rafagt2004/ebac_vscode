@@ -1,0 +1,25 @@
+/*
+seletor {
+    propriedade : valor;
+}
+*/
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+#sports h2 {
+    color: violet;
+}
+
+.date-time {
+    color: #ccc;
+}
+
+* {
+    color: blue;
+}
